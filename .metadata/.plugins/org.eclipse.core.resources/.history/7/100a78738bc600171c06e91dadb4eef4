@@ -1,0 +1,14 @@
+package excelOps;
+
+import java.io.FileInputStream;
+
+public class XlOps1 {
+
+	public static void main(String[] args) 
+	{
+		String xlpath="F:\\Kishore\\Workspace\\Selenium\\src\\testData\\TestData.xlsx";
+		FileInputStream fi=new FileInputStream(xlpath);
+
+	}
+
+}
